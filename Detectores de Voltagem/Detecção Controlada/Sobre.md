@@ -13,6 +13,14 @@ os parâmetros mais relevantes foram extraídos como variáveis globais do progr
 
 Optou-se pela utilização de variáveis globais ao invés de constantes apenas por uma questão didática para os usuários mais leigos.
 
+### Os diretórios
+
+Os diretórios contém os arquivos do projeto para utilização de um, dois ou três detectores.
+
+De fato, para um leitor mais atentoé possível notar que cada projeto é apenas uma extenção do
+projeto para apenas um detector. Por esse motivo, foi optado por extrair a função que realiza 
+a medida para um arquivo separado que é utilizado em todos os códigos.
+
 ### Marcado como importante no código
 
 Durante os experimentos foi verificado que, da forma como o aparato estava sendo montado, estar com o botão pressionado durante o
